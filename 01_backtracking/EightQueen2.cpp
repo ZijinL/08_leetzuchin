@@ -14,10 +14,7 @@ public:
     vector<vector<string>> solveNQueens(int n) {
         auto solutions = vector<vector<string>>();
         auto queens = vector<int>(n, -1);
-        auto columns = unordered_set<int>(); // c++中set基于红黑树，而unordered_set基于哈希表
-        auto diagonals_1 = unordered_set<int>(); // 这里不需要有序，但需要小规模快速查找，用unordered_set
-        auto diagonals_2 = unordered_set<int>();
-        backTrack(solutions, queens, n, 0, columns, diagonals_1, diagonals_2);
+        backTrack(solutions, queens, n, 0, 0, 0, 0);
         return solutions;
     }
 
@@ -32,7 +29,7 @@ public:
      * @param diagonals_1 用于存放已经有皇后的主对角线的编号
      * @param diagonals_2 用于存放已经有皇后的副对角线的编号
      */
-    void backTrack(vector<vector<string>> &solutions, vector<int> &queens, int n, int row, unordered_set<int> &columns, unordered_set<int> &diagonals_1, unordered_set<int> &diagonals_2) {
+    void backTrack(vector<vector<string>> &solutions, vector<int> &queens, int n, int row, int columns, int diagonals_1, int diagonals_2) {
         if (row == n) {
             vector<string> board = generateBoard(queens, n);
             solutions.push_back(board);

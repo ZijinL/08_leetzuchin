@@ -13,6 +13,14 @@
         "ostream": "cpp",
         "sstream": "cpp",
         "streambuf": "cpp",
-        "tuple": "cpp"
+        "tuple": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "cmath": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "numeric": "cpp"
     }
 }
