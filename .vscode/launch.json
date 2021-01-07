@@ -6,16 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch) - Current File",
+            "name": "CodeLens (Launch) - longestPalindromicSubstring3",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "longestPalindromicSubstring3",
+            "projectName": "08_leetzuchin_ee7f0c29"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-EightQueen<08_leetzuchin_ee7f0c29>",
+            "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "mainClass": "EightQueen",
-            "projectName": "08_leetzuchin_ee7f0c29"
+            "mainClass": "${file}"
         }
     ]
 }
