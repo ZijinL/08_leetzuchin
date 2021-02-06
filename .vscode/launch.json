@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - longestPalindromicSubstring4",
+            "request": "launch",
+            "mainClass": "longestPalindromicSubstring4",
+            "projectName": "08_leetzuchin_ee7f0c29"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - longestPalindromicSubstring3",
             "request": "launch",
             "mainClass": "longestPalindromicSubstring3",

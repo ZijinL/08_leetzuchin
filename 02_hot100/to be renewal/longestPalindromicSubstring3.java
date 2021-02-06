@@ -1,6 +1,7 @@
 // 中心拓展法，注意当回文字符串是偶数的时候，要单独讨论，可以封装优化一下
 // 状态转移方程 dp[i][j] = dp[i+1][j-1] && s[i] == s[j]
 // 边界条件 dp[i][i] = true; dp[i][i+1] == (s[i] == s[i+1])
+// 时间复杂度 O(n^2) 空间复杂度 O(1)
 
 public class longestPalindromicSubstring3 {
     public static int expandBorder(String s, int left, int right) {

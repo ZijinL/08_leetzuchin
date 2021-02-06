@@ -22,5 +22,8 @@
         "string": "cpp",
         "unordered_map": "cpp",
         "numeric": "cpp"
+    },
+        "workbench.colorCustomizations": {
+        "emmet.triggerExpansionOnTab": true
     }
 }

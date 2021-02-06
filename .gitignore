@@ -59,6 +59,5 @@ hs_err_pid*
 
 
 # ===Others===
-.vscode/
-.gitignore
-.gitattributes
+*.vscode/
+*.idea/
